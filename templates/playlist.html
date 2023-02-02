@@ -1,0 +1,19 @@
+{% extends 'main.html' %}
+
+{% block body %}
+<div class="container_1">
+    <div class="container__item_1">
+        <form class="form" method="GET" action="/download_page">
+            <!-- {% csrf_token %} -->
+            <input type="text" class="form__field" placeholder="Paste Playlist Link here" name="url" />
+            <button type="submit" class="btn btn--primary btn--inside uppercase" id="show_button"
+                style="background-color: #717bb9;" onclick="button_show()">Download</button>
+        </form>
+    </div>
+
+    <div class="container__item container__item--bottom_1">
+        <p style="padding-top: 30px;
+        padding-bottom: 30px;">For Video <a href="" target="_blank">Downloader</a>.</p>
+    </div>
+</div>
+{% endblock body %}

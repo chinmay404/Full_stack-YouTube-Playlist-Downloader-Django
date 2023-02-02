@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+
+{% block body %}
+
+<div class="container_1">
+    <div class="container__item_1">
+        <form class="form" method="GET" action="/download_page">
+            <!-- {% csrf_token %} -->
+            <input type="text" class="form__field" id="main_url" placeholder="Paste Link here" name="url" />
+            <button type="submit" class="btn btn--primary btn--inside uppercase" id="show_button"
+                style="background-color: #717bb9;" onclick="button_show()">Download</button>
+        </form>
+    </div>
+
+    <div class="container__item container__item--bottom_1">
+        <p style="padding-top: 30px;
+        padding-bottom: 30px;">For Playlist <a href="playlist" target="_blank">Downloader</a>.</p>
+    </div>
+    <div class="ads">
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7165240052042800"
+            crossorigin="anonymous"></script>
+        <!-- VIDFOR   div ads here -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7165240052042800"
+            data-ad-slot="9206535478" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
+{% endblock body %}
