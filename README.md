@@ -4,6 +4,8 @@ The web application provides a simple user interface for downloading YouTube vid
 
 ## learned Skills : 
 Django , Youtube Python Library , Download Multiple Files , servering Results on frontend
+
+## View
 ![site_sc_1](https://user-images.githubusercontent.com/92822013/225527465-da5cfcc5-d710-4779-938b-4735c1c48c38.png)
 
 ![2](https://user-images.githubusercontent.com/92822013/225527813-6537fa17-425e-441f-989f-eee17e48858a.png)
